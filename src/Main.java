@@ -6,11 +6,11 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
         double payment = 0;
 
-        payment = service.calculate (1_000_000, 9.99, 1);
+        payment = service.calculate(1_000_000, 9.99, 1);
         System.out.println("Ежемесячный платеж: " + payment);
-        payment = service.calculate (1_000_000, 9.99, 2);
+        payment = service.calculate(1_000_000, 9.99, 2);
         System.out.println("Ежемесячный платеж: " + payment);
-        payment = service.calculate (1_000_000, 9.99, 3);
+        payment = service.calculate(1_000_000, 9.99, 3);
         System.out.println("Ежемесячный платеж: " + payment);
     }
 }
